@@ -1,0 +1,21 @@
+{
+  "name": "vendor/jpeg-converter",
+  "description": "Конвертер изображений из WebP в JPEG на PHP",
+  "type": "project",
+  "license": "CC-BY-NC-4.0",
+  "authors": [
+    {
+      "name": "Ilya Samsonov",
+      "email": "sawsonov@yandex.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "ext-imagick": "*"
+  }
+}
