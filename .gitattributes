@@ -1,3 +1,5 @@
 * text=auto eol=lf
 
 *.php diff=php
+*.php linguist-language=PHP
+*.hack linguist-vendored
